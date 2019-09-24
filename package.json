@@ -48,5 +48,8 @@
   },
   "engines": {
     "node": "8.* || >= 10.*"
+  },
+  "dependencies": {
+    "clean-css": "^4.1.11"
   }
 }
