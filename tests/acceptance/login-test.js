@@ -5,9 +5,9 @@ import { setupApplicationTest } from 'ember-qunit';
 module('Acceptance | login', function(hooks) {
   setupApplicationTest(hooks);
 
-  test('visiting /login', async function(assert) {
-    await visit('/login');
+  test('visiting /', async function(assert) {
+    await visit('/');
 
-    assert.equal(currentURL(), '/login');
+    assert.equal(currentURL(), '/');
   });
 });
